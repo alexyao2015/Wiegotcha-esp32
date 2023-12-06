@@ -1,0 +1,29 @@
+Processing node32s (platform: espressif32; board: node32s; framework: espidf)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/node32s.html
+PLATFORM: Espressif 32 (6.4.0) > Node32s
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-espidf @ 3.50101.230828 (5.1.1) 
+ - tool-cmake @ 3.16.4 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+ - tool-ninja @ 1.9.0 
+ - tool-riscv32-esp-elf-gdb @ 12.1.0+20221002 
+ - tool-xtensa-esp-elf-gdb @ 12.1.0+20221002 
+ - toolchain-esp32ulp @ 1.23500.220830 (2.35.0) 
+ - toolchain-xtensa-esp32 @ 12.2.0+20230208
+Reading CMake configuration...
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 0 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Retrieving maximum program size .pio/build/node32s/firmware.elf
+Checking size .pio/build/node32s/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   9.5% (used 31020 bytes from 327680 bytes)
+Flash: [========= ]  87.4% (used 916257 bytes from 1048576 bytes)
+========================= [SUCCESS] Took 7.62 seconds =========================

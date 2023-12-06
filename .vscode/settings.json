@@ -1,0 +1,19 @@
+{
+  "files.associations": {
+    "stdlib.h": "c",
+    "esp_spiffs.h": "c",
+    "esp_littlefs.h": "c",
+    "esp_err.h": "c",
+    "event_groups.h": "c",
+    "esp_system.h": "c",
+    "esp_event.h": "c",
+    "gpio.h": "c",
+    "esp_log.h": "c",
+    "esp_intr_alloc.h": "c",
+    "unistd.h": "c",
+    "stdio.h": "c",
+    "wifi.h": "c",
+    "http.h": "c",
+    "string": "cpp"
+  }
+}
