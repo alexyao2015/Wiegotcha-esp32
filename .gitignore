@@ -1,0 +1,6 @@
+/build
+/managed_components
+.DS_Store
+/.vscode/tasks.json
+/sdkconfig.old
+/merged_firmware.bin

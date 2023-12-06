@@ -1,0 +1,1 @@
+void wifi_init_ap_station(void);
